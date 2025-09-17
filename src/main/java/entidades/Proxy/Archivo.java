@@ -1,5 +1,6 @@
 package entidades.Proxy;
 
 public interface Archivo {
-    public void accederArchivo();
+    public void abrir(String usuario);
+    public void leer(String usuario);
 }
