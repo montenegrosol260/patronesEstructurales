@@ -14,6 +14,18 @@ public class ArbolConcreto implements Árbol{
                 + textura + "fue creado correctamente");
     }
 
+    public String getTipoArbol() {
+        return tipoArbol;
+    }
+
+    public String getTextura() {
+        return textura;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
     @Override
     public void dibujarArbol(int x, int y) {
         System.out.println( "El árbol de "+ tipoArbol + ", de color "+ color + " y textura "
